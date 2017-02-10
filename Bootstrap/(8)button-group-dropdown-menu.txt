@@ -1,0 +1,24 @@
+Use a <div> element with class .btn-group to create a button group:
+	.btn-group-*
+	.btn-group-lg
+	.btn-group-md
+	.btn-group-sm
+	.btn-group-xs
+Bootstrap also supports vertical button groups:
+	.btn-group-vertical
+Bootstrap also supports justified button groups:
+if you use this for a element 
+	.btn-group-justified
+		a.btn
+if you use this for button element:
+	div.btn-group-justified
+		div.btn-group
+			button.btn
+Nesting Button Groups & Dropdown Menus:
+	div.btn-group
+		button.btn
+		button.btn
+		div.btn-group
+			button.btn.dropdown-toggle[data-toggle="dropdown"]>span.caret
+			ul.dropdown-menu[role="menu"]
+				li>a

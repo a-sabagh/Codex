@@ -1,0 +1,16 @@
+A glyphicon is inserted with the following syntax:
+	span.glyphicon.glyphicon-*
+
+* :
+	envelope
+	search
+	pencil
+	download
+	upload
+	user
+	tag
+	th
+	list
+	.........
+more name is available in :
+	http://getbootstrap.com/components/

@@ -1,0 +1,25 @@
+Bootstrap Form Layouts:
+1.Vertical form (this is default)
+2.Horizontal form
+3.Inline form
+
+	<form role="form">
+
+for improve accessibility of screen readers
+
+	div.form-group
+
+wrap all lable and input for optimum spacing
+
+	.form-control
+
+All textual <input>, <textarea>, and <select> elements with class .form-control have a width of 100%.
+inline form
+	
+	.form-inline
+
+horizontal form layout
+
+	.horizontal-form 
+	.control-label
+

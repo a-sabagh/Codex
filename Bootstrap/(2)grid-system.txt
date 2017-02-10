@@ -1,0 +1,6 @@
+Bootstrap's grid system allows up to 12 columns across the page.
+    xs (for phones)
+    sm (for tablets)
+    md (for desktops)
+    lg (for larger desktops)
+First; create a row (<div class="row">). Then, add the desired number of columns (tags with appropriate .col-*-* classes). Note that numbers in .col-*-* should always add up to 12 for each row.

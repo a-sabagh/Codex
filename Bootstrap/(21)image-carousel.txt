@@ -1,0 +1,18 @@
+(Bootstrap-image-carousel)
+	div.carousel.slide#carouselID[data-ride="carousel"]
+----------------------------------------------------------
+(carousel-indicators)
+	ol.carousel-indicators
+		li[data-target="#carouselID" data-slide-to="$"]
+----------------------------------------------------------
+(carousel-control)
+	a.carousel-control-left[href="#carouselID" data-slide="prev"]
+	a.carousel-control-right[href="#carouselID" data-slide="next"]
+----------------------------------------------------------
+(images)
+	div.item
+		img
+		div.carousel-caption
+----------------------------------------------------------
+(active item and carousel-indicator)
+	.active

@@ -1,0 +1,14 @@
+SCROLSPY:
+	data-spy="scroll"
+	data-target="#myScrollspy"
+	data-offset=""
+this class is all for body
+and you should set css classes for this element
+	.affix{
+		top:0;
+		width:100%;
+	}
+AFFIX
+	class="navbar navbar-inverse"
+	data-spy="affix"
+	data-offset-top="197"

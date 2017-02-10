@@ -1,0 +1,23 @@
+MODAL:
+the modal structure have three part:
+1.The "Trigger" part:
+	data-toggle="modal"
+	data-target="#madalID"
+2.The "Modal" part:
+	#modalID
+	.modal => (focuse on modal)
+	.fade => (make transition with fade effect for modal)
+	.modal-dialog => (set modal in center of page by margin)
+3.The "Modal content" part:
+	.modal-content
+	.modal-header
+	.modal-title
+	.modal-body
+	.modal-footer
+	.close
+	[data-dismiss="modal"]
+----------------------------------------------------------------
+modal size
+	.modal-dialog.modal-sm
+	.modal-dialog.modal-lg
+
