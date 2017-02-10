@@ -1,0 +1,2 @@
+#UNDO LAST COMMIT WITH RESET --SOFT
+git reset --hard SHA1 
