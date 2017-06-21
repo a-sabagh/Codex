@@ -38,3 +38,8 @@ ALTER TABLE [table_name] DROP FOREIGN KEY ADD FOREIGN KEY([column_name]) REFEREN
 ALTER TABLE [table_name] MODIFY COLUMN [column_name] [type] 
 ALTER TABLE [table_name] CHANGE COLUMN [column_name] [type] FIRST|AFTER [column_name] 
 ALTER TABLE [table_name] RENAME [table_new_name]
+
+#drop table
+#@DROP
+#@IF EXISTS
+DROP TABLE IF EXISTS [table_name]
