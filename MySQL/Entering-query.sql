@@ -8,3 +8,5 @@
  SELECT SIN(PI());
  #show user
  SELECT USER();
+ #selecting database
+ SELECT DATABASE();

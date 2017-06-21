@@ -7,5 +7,3 @@ CREATE DATABASE [db_name];
 SHOW TABELES;
 #describe field set of table
 DESCRIBE [field_of_table];
-#selecting database
-SELECT DATABASE();

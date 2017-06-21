@@ -1,9 +1,6 @@
 #show table status
 SHOW TABLE STATUS FROM [db_name]
 
-#mention table column
-[table_name]([column_name]);
-
 #create table 
 #@IF NOT EXIST
 #@NOT NULL
