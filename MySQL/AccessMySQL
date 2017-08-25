@@ -1,0 +1,4 @@
+MAMP:
+/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot
+LAMP:
+/opt/lampp/bin/mysql -u root -p 
