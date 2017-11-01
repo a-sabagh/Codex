@@ -21,3 +21,8 @@ SELECT [column_name] FROM [table_name] WHERE [condition] LIMIT [x] , [y];
 SELECT [column_name] AS [temporary_column_name] FROM [table_name] WHERE [condition];
 SELECT [column_name] AS [temporary_column_name] , [column_name2] AS [temporary_column_name2] FROM [table_name] WHERE [condition];
 SELECT [column_name] FROM [table_name] GROUP BY [column_name];
+
+#CROSS JOIN
+#INNER JOIN
+SELECT [table_name1].[column_name] , [table_name2].[column_name] FROM [table_name1] CROSS JOIN [table_name2];
+SELECT [table_name1].[column_name] , [table_name2].[column_name]  FROM [table_name1] INNER JOIN [table_name2] ON [table_name2].[column_name] = [table_name1].[column_name];
