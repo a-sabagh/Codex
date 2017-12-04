@@ -10,13 +10,17 @@ SHOW TABLE STATUS FROM [db_name]
 #@FOREIGN KEY ([column_name_foreign]) REFERENCES [table_name]([column_name_primary])
 #@ON DELETE [reference_option]
 #@ON UPDATE [reference_option]
+#@CHARACTER SET [charset_name]
+#@COLLATE [collate]
 #reference_option: RESTRICT | CASCADE | SET NULL | NO ACTION | SET DEFAULT
 CREATE TABLE IF NOT EXISTS [table_name](
 	[column_name] [type] NOT NULL AUTO_INCREMENT,
 	[column_name] [type] NOT NULL DEFAULT '[default_value]',
 	PRIMARY KEY ([column_name]),
 	FOREIGN KEY ([column_name_foreign]) REFERENCES [table_name]([column_name_primary]) ON DELETE CASCADE
-);
+)
+CHARACTER SET [character_set]
+COLLATE [collate];
 
 #alter table
 #@ADD
