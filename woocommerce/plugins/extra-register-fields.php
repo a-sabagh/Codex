@@ -1,4 +1,4 @@
-
+<?php 
 /**
  * adding registeration extra fields
  */

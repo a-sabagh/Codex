@@ -1,3 +1,4 @@
+<?php
 /**
 * Remove each style one by one
 */
