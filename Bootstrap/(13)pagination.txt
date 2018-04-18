@@ -1,7 +1,0 @@
-.pagination
-.active
-.disabled
-----------------------
-.pagination-lg
-.pagination-md
-.pagination-sm

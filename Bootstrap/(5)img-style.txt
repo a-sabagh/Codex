@@ -1,5 +1,0 @@
-img-rounded
-img-circule
-img-thumbnail
-=========================
-img-resposive

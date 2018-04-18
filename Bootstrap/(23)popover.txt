@@ -1,5 +1,0 @@
-POPOVER:
-	[data-toggle="popover"]
-	[title=""]
-	[data-content=""]
-	[data-trigger=""] 1.focus 2.click 3.hover
