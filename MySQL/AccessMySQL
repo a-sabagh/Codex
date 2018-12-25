@@ -2,3 +2,7 @@ MAMP:
 /Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot
 LAMP:
 /opt/lampp/bin/mysql -u root -p 
+------------------------
+mysql installed on mac :
+/usr/local/mysql/support-files/mysql.server start
+/usr/local/mysql/bin/mysql -u root -p
