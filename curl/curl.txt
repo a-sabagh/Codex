@@ -5,3 +5,9 @@ EX)-H 'Accept:application/json' -H 'Content-Type: application/json'
 EX) -X POST
 -d data
 EX) -d '{"name":"Hello World"}'
+=======
+EX)-H "Accept:application/json" -H "Content-Type: application/json"
+-X Mthod
+EX) -X POST
+-d data
+EX) -d {"name":"Hello World"}
