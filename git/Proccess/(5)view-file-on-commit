@@ -1,0 +1,4 @@
+#view an old version of the file
+git show $commit:$file_path
+#save as new file
+git show $commit:$file_path > $path_to_save
