@@ -1,0 +1,6 @@
+#checkout specific file
+git checkout FILENAME
+#checkout all staging files
+git checkout -A
+#checkout specific file with interactive interface to show diff output. checkout specific line instead of whole file
+git checkout -p FILENAME
