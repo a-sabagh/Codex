@@ -1,3 +1,6 @@
+#show table where table name like special prefix database_name is name of database
+SHOW TABLES WHERE table_in_{database_name} LIKE '%prefix%'
+
 #show table status
 SHOW TABLE STATUS FROM [db_name]
 
