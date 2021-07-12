@@ -1,0 +1,4 @@
+#Getting the last commit hash from a remote repo without cloning
+git ls-remote REMOTE_URL
+#Getting the last commit hash from a remote that cloning before
+git ls-remote
