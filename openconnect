@@ -1,0 +1,14 @@
+122 #Enviroment Variables
+123 export PLUGINS_PATH=/opt/lampp/htdocs/wordpress/wp-content/plugins
+124 export HTDOCS=/opt/lampp/htdocs
+125 export LABRATORY=~/labratory
+126 #alias vpn='sudo openconnect cis-20.mviip.com --background --no-dtls --user mv3m1289'
+127 export vpn_url="cis-20.mviip.com";
+128 export vpn_username="mv3m1289";
+129 export vpn_password="81ejdy";
+130 export TIMESTAMP=$(date +%s);
+131 alias lampp="sudo /opt/lampp/lampp";
+132 alias mysql="/opt/lampp/bin/mysql";
+133 alias kerio="sudo /etc/init.d/kerio-kvc";
+134 
+135 export PATH=$PATH:~/bin/
