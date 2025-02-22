@@ -1,4 +1,4 @@
-SELECT postmeta.meta_value as id, users.user_login AS phone, users.display_name, count(posts.ID), SUM(postmeta2.meta_value) AS total_price , posts.post_modified AS last_order
+SELECT postmeta.meta_value as id, users.user_login AS phone, users.display_name, count(posts.ID), SUM(postmeta2.meta_value) AS total_price , GROUP_CONCAT(posts.post_modified ORDER BY posts.post_modified DESC LIMIT 1) 
     FROM wp_sdposts AS posts  
     INNER JOIN wp_sdpostmeta AS postmeta 
     ON postmeta.meta_key LIKE '%customer%' AND postmeta.post_id = posts.ID 
